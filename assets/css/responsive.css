@@ -60,7 +60,7 @@
         text-align: center;
     }
 
-    .footer_menu ul, .social_link ul{
+    .footer-menu ul, .social-link ul{
       display: grid;
       grid-template-columns: repeat(3, 2fr);
     }

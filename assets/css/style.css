@@ -323,7 +323,7 @@ footer{
 .footer{
   padding: 50px;
 }
-.footer_logo{
+.footer-logo{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -331,7 +331,6 @@ footer{
 }
 .footer_title{
   color: #FFF;
-  font-family: "Work Sans", sans-serif;
 font-size: 45px;
 
 font-weight: 700;
@@ -348,20 +347,19 @@ ul li{
 ul li a{
   text-decoration: none;
 }
-.footer_menu ul li a{
+.footer-menu ul li a{
   color: #FFF;
-font-family: "Work Sans", sans-serif;
 font-size: 18px;
 font-weight: 600;
 }
-.footer_menu ul{
+.footer-menu ul{
   margin-top: 70px;
  display: flex;
  justify-content: center;
  align-items: center;
  gap: 60px;
 }
-.social_link ul{
+.social-link ul{
   padding: 50px 0;
   display: flex;
  justify-content: center;
@@ -369,10 +367,10 @@ font-weight: 600;
  gap: 40px;
  
 }
-.social_link ul li a{
+.social-link ul li a{
   color: #FFF;
 }
-.social_link fa-brands{
+.social-link fa-brands{
   font-size: 100px;
 }
 .footer_terms ul{
@@ -388,9 +386,7 @@ font-weight: 600;
   text-align: center;
   color: rgba(255, 255, 255, 0.60);
 margin-top: 30px;
-font-family: Work Sans;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-line-height: normal;
 }
