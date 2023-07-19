@@ -13,3 +13,137 @@
 body {
     font-family: "Work Sans", sans-serif;
 }
+
+.navbar,
+.banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+nav {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+  }
+  .logo-text {
+    color: var(--secondary-color);
+    
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  .logo-g {
+    color: var(--primary-color);
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-item ul {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-item ul li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .nav-item ul li a {
+    text-decoration: none;
+    color: #3c354f;
+  }
+  .nav-item button {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.1);
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .fa-brands {
+    font-size: 24px;
+  }
+  .fa-youtube {
+    color: #f61c0d;
+    padding: 0 10px;
+  }
+
+  /* banner css */
+.banner-left-back {
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+  }
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .banner-subtitle {
+    color: #0b0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .banner-title {
+    padding: 24px 0;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .banner-desc2{
+      padding: 17px 0;
+  }
+  .banner-desc {
+    color: var(--text-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    gap: 12px;
+  }
+  .button-group{
+      margin-top: 40px;
+      display: flex;
+      gap: 25px;
+  }
+  .banner-point{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+
+  .btn1 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+  }
+  .btn2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+  }
