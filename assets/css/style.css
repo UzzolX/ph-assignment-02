@@ -15,7 +15,7 @@ body {
 }
 
 .navbar,
-.banner{
+.banner, .gamer-container, .videos, .play-instant-con{
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -25,7 +25,6 @@ nav {
   }
   .logo-text {
     color: var(--secondary-color);
-    
     font-size: 45px;
     font-weight: 700;
   }
@@ -76,7 +75,7 @@ nav {
     padding: 0 10px;
   }
 
-  /* banner css */
+  /* Banner CSS */
 .banner-left-back {
     background-image: url(../images/Group\ 14.png);
     background-repeat: no-repeat;
@@ -147,3 +146,134 @@ nav {
     border: none;
     cursor: pointer;
   }
+
+/* We are gamer */
+  .gamer-section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.gamer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gamer-content{
+  text-align: right;
+}
+.section-title {
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-desc {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 400;
+}
+.gamer-para{
+  padding: 24px 0;
+}
+.purpose{
+  padding: 10px 0 ;
+  color: var(--text-color);
+  font-size: 24px;
+  font-weight: 500;
+}
+.section-title-bot{
+  color: var(--text-color);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Online Games */
+.videos {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.video-container {
+  position: relative;
+  transition: 0.1sec;
+}
+.video-container:hover {
+  border: 3px solid var(--primary-color);
+  border-radius: 20px;
+  .play {
+    visibility: visible;
+    transition: 0.1sec;
+  }
+}
+.video-container img:hover {
+  opacity: 0.44;
+}
+.play {
+  position: absolute;
+  top: 45%;
+  right: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  visibility: hidden;
+}
+.fa-play {
+  margin-bottom: 10px;
+  font-size: 28px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+.play span {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+.video-title {
+  text-align: center;
+  margin-top: 120px;
+}
+.video-section .title-black{
+  color: #0B0223;
+}
+.video-desc {
+  text-align: center;
+}
+.video-desc {
+  padding: 16px 0 48px 0;
+}
+.video-caption {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 24px;
+  color: var(--text-color);
+}
+
+/* Play Instantly */
+.play-instant-con{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.download_content{
+  text-align: right;
+}
+.play-instant-title{
+  color: #0B0223;
+}
+.download_para{
+  margin-top: 24px;
+}
+.play-instant-img{
+  position: relative;
+}
+.play-smallimg{
+position: absolute;
+bottom: -88px;
+left: -156px;
+}
+.play-instant{
+  margin-top: 120px;
+}
