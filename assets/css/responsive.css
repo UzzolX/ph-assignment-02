@@ -69,4 +69,24 @@
       grid-template-columns: repeat(2, 2fr);
     }
 
+    .grid-container {
+      padding: 0px 10px;
+  }
+  .single-card-container {
+      gap: 5px;
+  }
+
+  .card {
+      flex: 0 0 calc(33.3333% - 10px); /* Set the width of each card for mobile (three cards in a row) */
+  }
+
+  .single-card-container img {
+      width: 30%;
+      margin: 0 0 0 7px;
+  }
+
+  .single-card-container p {
+      font-size: 15px;
+  }
+
   }
