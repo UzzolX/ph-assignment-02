@@ -196,12 +196,12 @@ nav {
 }
 .video-container {
   position: relative;
-  transition: 0.1sec;
+  transition: 0.3s;
 }
 .video-container:hover {
   .play {
     visibility: visible;
-    transition: 0.1s;
+    transition: 0.3s;
   }
 }
 .video-container img:hover {
